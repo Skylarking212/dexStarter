@@ -49,24 +49,24 @@ header {
 }
 
 .headerItem:hover {
-  background-color: rgb(34, 42, 58);
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 .connectButton {
-  background-color: #243056; 
+  background-color: #ffffff; 
   padding: 10px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 100px;
-  color: #5981F3;
+  color: #000000;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .connectButton:hover {
   cursor: pointer;
-  color: #3b4874
+  color: #707070
 }
 
 .mainWindow {
@@ -82,8 +82,8 @@ header {
 
 .tradeBox {
   width: 400px;
-  background-color: #0E111B;
-  border: 2px solid #21273a;
+  background-color: #000000;
+  border: 0.01px solid #686868;
   min-height: 300px;
   border-radius: 15px;
   display: flex;
@@ -103,7 +103,7 @@ header {
 }
 
 .cog {
-  color: #51586f;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -124,8 +124,8 @@ header {
   position: absolute;
   top: 86px;
   left: 180px;
-  color: #5F6783;
-  border: 3px solid #0E111B;
+  color: #969696;
+  border: 3px solid #969696;
   font-size: 12px;
   transition: 0.3s
 }
@@ -198,12 +198,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #243056; 
+  background-color: #4b4b4b; 
   width: calc(100%);
   height: 55px;
   font-size: 20px;
   border-radius: 12px;
-  color: #5981F3;
+  color: #e7e7e7;
   font-weight: bold;
   transition: 0.3s;
   margin-bottom: 30px;
@@ -211,19 +211,19 @@ header {
 }
 
 .swapButton[disabled] {
-  background-color: #243056;
+  background-color: #363737;
   opacity: 0.4;
-  color: #5982f39b;
+  color: #ffffff9b;
 }
 
 .swapButton[disabled]:hover {
   cursor: not-allowed;
-  background-color: #243056;
+  background-color: #4c4c4c;
 }
 
 .swapButton:hover {
   cursor: pointer;
-  background-color: #3b4874
+  background-color: #7e7e7e
 }
 
 .tokenLogo {
@@ -232,7 +232,7 @@ header {
 }
 
 .modalContent {
-  border-top: 1px solid #363e54;
+  border-top: 1px solid #3e3e3e;
   /* padding-top: 20px; */
   margin-top: 20px;
   display: flex;
@@ -251,7 +251,7 @@ header {
 
 .tokenChoice:hover {
   cursor: pointer;
-  background-color: #1f2639;
+  background-color: #444444;
 }
 
 .tokenName {
@@ -264,5 +264,5 @@ header {
   margin-left: 10px;
   font-size: 13px;
   font-weight: 300;
-  color: #51596f;
+  color: #979797;
 }
